@@ -1,0 +1,27 @@
+/* Modifying headers */
+h1{font-weight: bold;line-height: 30%;font-size: 30px;margin: 10px 0px 10px 0px; text-align: center;}
+h2{font-style: italic; line-height: 250%;text-align: center;}
+h3{margin: 10px;}
+
+/* Applying just to the root */
+:root{font-family: 'Roboto', sans-serif;}
+
+/* applying this font to just these headers */
+h1,
+h2,
+h3 {font-family: 'Sixtyfour', sans-serif;}
+
+/*Formatting the images */
+.p9{line-height:20px; border: 5px solid;justify-content: center;}
+
+/* Organizing the section headings */
+body{line-height: 150%;}
+section{height: 150px;}
+.Growth{line-height: 150%;width: 50%;}
+.Ribbon {border: 5px solid;justify-content: center;}
+.format{height: 1600px; text-align: center;}
+nav{position: fixed;background-color:coral;}
+nav ol{list-style: none;display: flex;justify-content: center;}
+nav ol li{justify-content: center;width: 160px;text-align: center;}
+
+
